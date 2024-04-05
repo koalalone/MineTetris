@@ -173,7 +173,7 @@ public class Board : MonoBehaviour
         }
 
         score.AddScore();
-        activePiece.stepDelay -= 0.01f;
+        activePiece.stepDelay -= 0.0125f;
         
     }
 }
